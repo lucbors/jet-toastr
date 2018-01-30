@@ -1,0 +1,37 @@
+<!--
+ Copyright (c) 2014, 2017, Oracle and/or its affiliates.
+ The Universal Permissive License (UPL), Version 1.0
+ -->
+<div class="oj-hybrid-padding">
+  <h1>Dashboard Content Area</h1>
+  <div>
+
+
+        <div class="demo-flex-display oj-flex-items-pad">
+            <div class="oj-flex-bar">
+                <div>
+                    <div style="padding: 5px;"></div>
+                    <div class="oj-flex-bar-start"><h1 data-bind="text: 'push the buttons'"></h1></div>
+                    <div class="oj-flex-bar-end" id='buttonsr'>    
+                        <div>
+                            <oj-button id="error"  on-click='[[$root.showError]]'> 
+                                Error
+                            </oj-button>
+                            <oj-button id="success"  on-click='[[$root.showSuccess]]'> 
+                                Success
+                            </oj-button>
+                            <oj-button id="warning"  on-click='[[$root.showWarning]]'> 
+                                Warning
+                            </oj-button>
+                            <oj-button id="info"  on-click='[[$root.showInfo]]'> 
+                                Info
+                            </oj-button>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>      
+      
+      
+  </div>
+</div>
